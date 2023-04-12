@@ -1,0 +1,132 @@
+body {  
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: radial-gradient(circle at 80.04% 19.96%, #a573fa 0, #7e5be8 25%, #4d42d4 50%, #002cc0 75%, #001caf 100%);
+}
+
+/*que la clase titulo este arriba centrada y con un tamaño de 50px*/
+.titulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 20px 0;
+}
+/*que la clase descripcion este arriba centrada y con un tamaño de 50px*/
+.descripcion {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 80px 0;
+}
+#piano {    
+    height: 290px;
+    padding: 90px 30px 0 30px;
+
+    border-radius: 10px;
+}
+
+.teclas {
+    position: relative;
+
+}
+
+.teclas-blancas {
+    display: flex;
+}
+
+.teclas-negras {
+    position: relative;
+    display: flex;
+}
+
+.tecla-blanca {
+    width: 68px;
+    height: 280px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    border: solid #000 2px;
+    box-sizing: border-box;
+}
+
+.tecla-negra {
+    width: 38px;
+    height: 160px;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #000;
+}
+
+.tecla-negra:nth-child(1) {
+    left: 48px;
+}
+
+.tecla-negra:nth-child(2) {
+    left: 117px;
+}
+
+.tecla-negra:nth-child(3) {
+    left: 253px;
+}
+
+.tecla-negra:nth-child(4) {
+    left: 320px;
+}
+
+.tecla-negra:nth-child(5) {
+    left: 389px;
+}
+
+.tecla-negra:nth-child(6) {
+    left: 525px;
+}
+
+.tecla-negra:nth-child(7) {
+    left: 594px;
+}
+
+.tecla-negra:nth-child(8) {
+    left: 730px;
+}
+
+.tecla-negra:nth-child(9) {
+    left: 797px;
+}
+
+.tecla-negra:nth-child(10) {
+    left: 865px;
+}
+
+/*hacer footer con degradado*/
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 20px 0;
+    
+}
