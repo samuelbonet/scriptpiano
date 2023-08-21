@@ -1,5 +1,5 @@
 # Script Piano 🎹
-Apliación web basada en el funcionamiento de un piano,al hacer clic sobre una de las teclas emitirá su correspondiente nota.
+Aplicación web basada en el funcionamiento de un piano,al hacer clic sobre una de las teclas emitirá su correspondiente nota.
 
 ## ¿Cómo ha sido creado? 🛠️
 En el html,se han creado los divs que son las teclas blancas como las teclas negras, se ha modelado mediante css las teclas y se ha usado la sentencia "forEach" para recorrer cada tecla y su sonido.
